@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br-en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <img src="securepass-removebg-preview.png" alt="Logo da Empresa" class="logo">
+            <h1>Domine a Segurança Online com Nosso Gerador de Senhas gratis</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#categorias">Categorias</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+                </nav>
+    </header>
+
+    <!-- Scripts opcionais (exemplo de jQuery para interatividade) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+    <!-- Seção de Destaque (Hero) -->
+    <section id="inicio" class="hero">
+        <div class="hero">
+            <h1>Bem-vindo ao Blog de Cibersegurança</h1>
+            <p>Seu guia para se proteger online.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Artigos (Lista de Postagens) -->
+    <section id="artigos" class="artigos">
+        <div class="container">
+            <h2>Artigos Recentes</h2>
+            <div class="artigo">
+                <h3>Como Fortalecer sua Senha contra Ataques de Força Bruta</h3>
+                <p>Dicas para criar senhas seguras e proteger suas contas online.</p>
+                <a href="artigo1.html" class="leia-mais">Leia mais</a>
+            </div>
+            <div class="artigo">
+                <h3>O Papel da Criptografia na Segurança de Dados</h3>
+                <p>Entenda como a criptografia protege suas informações contra acesso não autorizado.</p>
+                <a href="artigo2.html" class="leia-mais">Leia mais</a>
+            </div>
+            <section id="categorias" class="categorias">
+                <div class="container">
+                    <h2>Categorias</h2>
+                    <ul>
+                        <li><a href="dicas.html">Dicas de Segurança</a></li>
+                        <li><a href="tutoriais.html">Tutoriais</a></li>
+                        <li><a href="eventos">Eventos e Conferências</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre o Blog</h2>
+            <p>O Blog de Cibersegurança é dedicado a fornecer informações atualizadas e educativas sobre segurança digital e proteção de dados na internet.</p>
+        </div>
+    </section>
+
+    <section>
+    <div class="container">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="POST" class="formulario" id="form-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+        
+        <div id="mensagem-envio" style="display: none;"></div>
+    </div>
+    </section>
+
+    <section class="main-content">
+        <div class="container">
+            <article>
+                <h2>Por que Usar um Gerador de Senhas?</h2>
+                <p>A escolha de senhas robustas é crucial para proteger contas de e-mail, redes sociais, serviços bancários e muito mais. Nosso gerador combina letras maiúsculas e minúsculas, números e caracteres especiais para criar senhas complexas que são virtualmente impenetráveis.</p>
+            </article>
+
+            <article>
+                <h2>Como Funciona</h2>
+                <ul>
+                    <li><strong>Facilidade de Uso:</strong> Basta um clique para gerar uma senha única e segura.</li>
+                    <li><strong>Flexibilidade no Comprimento:</strong> Personalize o comprimento da sua senha entre 4 e 14 caracteres, adequando-a às exigências de segurança de diferentes plataformas.</li>
+                    <li><strong>Segurança Garantida:</strong> Utilizamos um algoritmo robusto para garantir que suas senhas sejam aleatórias e difíceis de serem adivinhadas.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>Opções de Geração de Senha</h2>
+                <form id="password-options">
+                    <label>
+                        <input type="checkbox" name="lowercase" checked>
+                        Incluir letras minúsculas (a-z)
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="uppercase" checked>
+                        Incluir letras maiúsculas (A-Z)
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="numbers" checked>
+                        Incluir números (0-9)
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="specialChars" checked>
+                        Incluir caracteres especiais (!@#$%^&*()-_=+)
+                    </label>
+                </form>
+                <div class="password-generator">
+                    <input type="text" id="password" readonly>
+                    <button id="generate-btn">Gerar Senha</button>
+                </div>
+            </article>
+            <aside class="ad-container">
+                <p><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685205302442461"
+                    crossorigin="anonymous"></script></p>
+            </aside>
+        </div>
+    </section>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685205302442461"
+     crossorigin="anonymous"></script>
+
+    <footer>
+        <div class="container2">
+            <p>Fortaleça sua defesa cibernética hoje mesmo com nosso Gerador de Senhas. Proteja-se contra ameaças online com senhas que combinam segurança e conveniência. Experimente agora e descubra a tranquilidade de estar um passo à frente na segurança digital.</p>
+            <p><em>Pronto para elevar sua segurança online? Experimente nosso Gerador de Senhas e proteja suas informações com senhas robustas e confiáveis. Sua segurança está em suas mãos!</em></p>
+            <p class="copyright">&copy; 2024 SecurePass. Todos os direitos reservados.</p>
+        </div>
+    
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
